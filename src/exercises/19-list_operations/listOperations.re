@@ -93,7 +93,7 @@ Jest.(
   Expect.(
     describe("List operations", () => {
       test("my new ints", () =>
-        expect(myNewInts(myInts)) |> toBe([2, 3, 4, 5, 6])
+        expect(myNewInts(myInts)) |> toEqual([2, 3, 4, 5, 6])
       );
       test("num even ints", () =>
         expect(numEvenInts(myInts)) |> toBe(2)
