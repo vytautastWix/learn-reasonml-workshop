@@ -22,11 +22,11 @@ Jest.(
   Expect.(
     describe("List range", () => {
       test("range", () =>
-        expect(range(1, 4)) |> toBe([1, 2, 3])
+        expect(range(1, 4)) |> toEqual([1, 2, 3])
       );
       test("range", () =>
         expect(range(-5, 3))
-        |> toBe([(-5), (-4), (-3), (-2), (-1), 0, 1, 2])
+        |> toEqual([(-5), (-4), (-3), (-2), (-1), 0, 1, 2])
       );
     })
   )
