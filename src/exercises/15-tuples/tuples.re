@@ -69,7 +69,7 @@ Jest.(
   Expect.(
     describe("Tuples", () => {
       test("add", () =>
-        expect(add((1, 2), (3, 4))) |> toBe((4, 6))
+        expect(add((1, 2), (3, 4))) |> toEqual((4, 6))
       );
       test("first", () =>
         expect(first(("foo", "bar"))) |> toBe("foo")
