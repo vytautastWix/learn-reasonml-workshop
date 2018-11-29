@@ -90,11 +90,11 @@ Jest.(
     describe("Records", () => {
       test("modifyPerson", () =>
         expect(modifyPerson(ForTesting.test_ex1))
-        |> toBe(ForTesting.test_ex1')
+        |> toEqual(ForTesting.test_ex1')
       );
       test("modifyPerson", () =>
         expect(modifyPerson(ForTesting.test_ex2))
-        |> toBe(ForTesting.test_ex2')
+        |> toEqual(ForTesting.test_ex2')
       );
     })
   )

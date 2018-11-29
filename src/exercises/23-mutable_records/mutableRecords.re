@@ -51,15 +51,15 @@ Jest.(
     describe("Mutable records", () => {
       test("advance color", () => {
         advanceColor(ForTesting.test_ex_red);
-        expect(ForTesting.test_ex_red) |> toBe(ForTesting.test_ex_red');
+        expect(ForTesting.test_ex_red) |> toEqual(ForTesting.test_ex_red');
       });
       test("advance color", () => {
         advanceColor(ForTesting.test_ex_yellow);
-        expect(ForTesting.test_ex_yellow) |> toBe(ForTesting.test_ex_yellow');
+        expect(ForTesting.test_ex_yellow) |> toEqual(ForTesting.test_ex_yellow');
       });
       test("advance color", () => {
         advanceColor(ForTesting.test_ex_green);
-        expect(ForTesting.test_ex_green) |> toBe(ForTesting.test_ex_green');
+        expect(ForTesting.test_ex_green) |> toEqual(ForTesting.test_ex_green');
       });
     })
   )
