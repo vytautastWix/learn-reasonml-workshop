@@ -20,7 +20,7 @@ let rec addEveryNumberUpTo = x => {
  */
 let rec factorial = x => {
   assert(x >= 0);
-  failwith("For you to implement");
+  x;
 };
 
 Jest.(

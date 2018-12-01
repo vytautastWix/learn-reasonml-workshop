@@ -23,7 +23,7 @@ let () = {
 type coordinate = (int, int);
 
 /* TODO */
-let add = (coord1, coord2) => failwith("For you to implement");
+let add = (coord1, coord2) => coord1;
 
 /* Now consider a name type containing strings representing first and last name. */
 type name = (string, string);
@@ -59,11 +59,11 @@ let nestedCharPair: pair(pair(char)) = (('a', 'b'), ('c', 'd'));
 /* Write functions to extract the first and second elements from a pair. */
 /* let first: pair('a) => 'a */
 /* TODO */
-let first = pair => failwith("For you to implement");
+let first = pair => snd(pair); /* implement without fst() */
 
 /* let second: pair('a) => 'a */
 /* TODO */
-let second = pair => failwith("For you to implement");
+let second = pair => fst(pair); /* implement without snd() */
 
 Jest.(
   Expect.(

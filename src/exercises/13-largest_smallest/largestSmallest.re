@@ -22,9 +22,9 @@ let rec smallest = xs =>
   };
 
 /* Let's rewrite them using every: */
-let simplerLargest = xs => failwith("For you to implement");
+let simplerLargest = xs => 0.;
 
-let simplerSmallest = xs => failwith("For you to implement");
+let simplerSmallest = xs => 0.;
 
 Jest.(
   Expect.(

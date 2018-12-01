@@ -2,12 +2,12 @@
   We can easily write a function that adds 1 to any number.
   Recall that the infix operator (+) will add two integers.
  */
-let add1 = x => failwith("For you to implement");
+let add1 = x => x;
 
 /*
   Let's write a function that squares its argument (multiplies it by itself)
  */
-let square = x => failwith("For you to implement");
+let square = x => x;
 
 /*
   Functions are first class in Reason. This means that you can take
@@ -20,12 +20,12 @@ let square = x => failwith("For you to implement");
   by writing:
   let add2 = twice(add1)
  */
-let twice = (f, x) => failwith("For you to implement");
+let twice = (f, x) => x;
 
 /* Now that we have twice, write add2 and raiseToTheFourth */
-let add2 = x => failwith("For you to implement"); /* Hint: use add1 */
+let add2 = x => x; /* Hint: use add1 */
 
-let raiseToTheFourth = x => failwith("For you to implement"); /* Hint: use square */
+let raiseToTheFourth = x => x; /* Hint: use square */
 
 Jest.(
   Expect.(

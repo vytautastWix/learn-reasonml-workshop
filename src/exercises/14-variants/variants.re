@@ -48,7 +48,7 @@ let cardValueToString = cardValue =>
   Write a function that computes the score of a card (aces should score 11
   and face cards should score 10).
  */
-let cardValueToScore = cardValue => failwith("For you to implement");
+let cardValueToScore = cardValue => 0;
 
 Jest.(
   Expect.(

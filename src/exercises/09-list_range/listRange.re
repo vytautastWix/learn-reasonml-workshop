@@ -16,7 +16,7 @@ let () = {
 
   let range: (int, int) => list(int)
  */
-let range = (from, to_) => failwith("For you to implement");
+let range = (from, to_) => [];
 
 Jest.(
   Expect.(
