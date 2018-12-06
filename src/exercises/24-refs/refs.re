@@ -26,10 +26,10 @@ Jest.(
   Expect.(
     describe("Refs", () => {
       test("min and max", () =>
-        expect(minAndMax([5, 9, 2, 4, 3])) |> toBe((2, 9))
+        expect(minAndMax([5, 9, 2, 4, 3])) |> toEqual((2, 9))
       );
       test("min and max", () =>
-        expect(minAndMax([11, 15, 7, 34])) |> toBe((7, 34))
+        expect(minAndMax([11, 15, 7, 34])) |> toEqual((7, 34))
       );
     })
   )
