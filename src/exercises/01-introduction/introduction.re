@@ -11,27 +11,11 @@
 
   This exercise is to familiarize you with the code-compile cycle.
 
-  To compile your code, run in a terminal session in the root directory
+  1. Run `npm start` if you haven't already.
 
-    $ npm run build
+  2. Uncomment the following line (you should see a compilation error)
 
-  You should see a compilation error because it's missing the end quote. Add
-  the end quote and re-run. You should see that the code compiled successfully!
+  3. Fix the code
+*/
 
-  For convenience you can build whenever you change the code by running the
-  compiler in watch mode. For that, run
-
-    $ npm run start
-
-  You can also execute code in Reason's REPL (rtop) directly. To start rtop from
-  your terminal run:
-
-    $ rtop
-
-  Now try pasting the code below into it.
-
-  *Note:* Use `Ctrl-d` to exit the rtop session.
-
-  Try these out and move on to the next exercise!
- */
-let () = print_endline("Hello, World!);
+/* let result = 1 + "2"; */
