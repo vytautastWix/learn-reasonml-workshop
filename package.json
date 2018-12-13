@@ -8,7 +8,7 @@
     "test:watch": "jest --env=node --watchAll"
   },
   "jest": {
-    "testMatch": ["**/src/exercises/**/!(introduction).bs.js"]
+    "testMatch": ["**/src/exercises/**/*.bs.js"]
   },
   "keywords": [
     "BuckleScript"
