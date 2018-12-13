@@ -2,12 +2,12 @@
   We can easily write a function that adds 1 to any number.
   Recall that the infix operator (+) will add two integers.
  */
-let add1 = x => x;
+let add1 = x => 123;
 
 /*
   Let's write a function that squares its argument (multiplies it by itself)
  */
-let square = x => x;
+let square = x => 123;
 
 /*
   Functions are first class in Reason. This means that you can take
@@ -23,9 +23,9 @@ let square = x => x;
 let twice = (f, x) => x;
 
 /* Now that we have twice, write add2 and raiseToTheFourth */
-let add2 = x => x; /* Hint: use add1 */
+let add2 = x => 123; /* Hint: use add1 */
 
-let raiseToTheFourth = x => x; /* Hint: use square */
+let raiseToTheFourth = x => 123; /* Hint: use square */
 
 Jest.(
   Expect.(

@@ -31,7 +31,7 @@ assert(whatNumberAmIThinking(Some(7)) == "My number is: 7");
   ints and returns an int option. It should return None if [divisor = 0], and
   otherwise returns [Some(x)] where [x] is the division result
  */
-let safeDivide = (~dividend, ~divisor) => None;
+let safeDivide = (~dividend, ~divisor) => Some(123);
 
 Jest.(
   Expect.(

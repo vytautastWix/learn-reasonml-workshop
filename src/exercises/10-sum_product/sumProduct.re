@@ -71,12 +71,12 @@ let rec product = xs =>
 
  Let's write the common parts just once:
  */
-let rec every = (answer, combine, xs) => 0;
+let rec every = (answer, combine, xs) => answer;
 
 /* Now let's rewrite sum and product in just one line each using every */
-let simplerSum = xs => 0;
+let simplerSum = xs => 123;
 
-let simplerProduct = xs => 0;
+let simplerProduct = xs => 123;
 
 Jest.(
   Expect.(

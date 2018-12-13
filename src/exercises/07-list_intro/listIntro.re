@@ -21,7 +21,7 @@ let rec length = lst =>
   };
 
 /* Write a function to add up the elements of a list by matching on it. */
-let rec sum = lst => 0;
+let rec sum = lst => 123;
 
 /*
   The signature for the append operator is
