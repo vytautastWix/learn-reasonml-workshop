@@ -2,7 +2,7 @@
 let rec every = (answer, combine, xs) =>
   switch (xs) {
   | [] => answer
-  | [x, ...xs] => combine(x, every(answer, combine, xs))
+  | [x, ...rest] => every(combine(x, answer), combine, rest)
   };
 
 /*
