@@ -104,7 +104,8 @@ Jest.(
   Expect.(
     describe("Writing list operations", () => {
       test("MyList.map", () =>
-        expect(MyList.map(x => 2 * x, [1, 2, 3, 4])) |> toEqual([2, 4, 6, 8])
+        expect(MyList.map(x => 2 * x, [1, 2, 3, 4]))
+        |> toEqual([2, 4, 6, 8])
       );
       test("MyList.iter", () => {
         let acc = ref(0);
@@ -115,7 +116,7 @@ Jest.(
             },
           [1, 8, 5, 2, 7, 3],
         );
-        
+
         expect(acc^) |> toBe(8);
       });
       test("MyList.filter", () =>

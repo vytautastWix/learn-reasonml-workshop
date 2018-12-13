@@ -20,7 +20,7 @@ let () = x := x^ + 1;
 
   Hint: [max_int] or [min_int].
  */
-let minAndMax = lst => ((0,0));
+let minAndMax = lst => (0, 0);
 
 Jest.(
   Expect.(

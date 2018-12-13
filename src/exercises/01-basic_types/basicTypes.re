@@ -125,7 +125,6 @@ let () = {
   print_endline(" and I am 5 years old");
 };
 
-
 Jest.(
   Expect.(
     describe("Basic types", () => {

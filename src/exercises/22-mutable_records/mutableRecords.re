@@ -55,11 +55,13 @@ Jest.(
       });
       test("advance color", () => {
         advanceColor(ForTesting.test_ex_yellow);
-        expect(ForTesting.test_ex_yellow) |> toEqual(ForTesting.test_ex_yellow');
+        expect(ForTesting.test_ex_yellow)
+        |> toEqual(ForTesting.test_ex_yellow');
       });
       test("advance color", () => {
         advanceColor(ForTesting.test_ex_green);
-        expect(ForTesting.test_ex_green) |> toEqual(ForTesting.test_ex_green');
+        expect(ForTesting.test_ex_green)
+        |> toEqual(ForTesting.test_ex_green');
       });
     })
   )
